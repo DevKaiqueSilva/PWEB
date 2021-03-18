@@ -1,0 +1,11 @@
+let nome = "";
+let nota1 = "0";
+let nota2 = "0";
+let nota3 = "0";
+alert("Vamos calcular sua média!");
+nome = prompt("Qual o seu nome?", nome);
+nota1 = prompt("Digite sua primeira nota:", nota1);
+nota2 = prompt("Digite sua segunda nota:", nota2);
+nota3 = prompt("Digite sua terceira nota:", nota3);
+let media = (parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3)) / 3;
+alert(`Olá ${nome} \nA sua média é: ${media.toFixed(2)}`);
