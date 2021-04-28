@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaique Silva - Portifólio</title>
+    <!-- Materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- feather icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- MEU SCRIPT JS -->
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <header style="position: fixed;z-index: 2;">
+        <nav class="navbar">
+            <a href="#" id="btnOnMenu"><i class="material-icons btnMenu">menu</i></a>
+        </nav>
+    </header>
+    <header class="headerPc" id="headerPc">
+        <nav>
+            <ul class="horizontal">
+                <li style="float:left !important;">
+                    <h4 style="margin:10px">Kaique Silva</h4>
+                </li>
+
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+                <li>
+                    <a href="#curriculo">Currículo</a>
+                </li>
+                <li>
+                    <a href="#tecnologias">Tecnologias</a>
+                </li>
+                <li>
+                    <a href="#data">Sobre</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="side-nav inactive" id="menu-mobile">
+        <div class="navigation-drawer">
+            <ul>
+                <li>
+                    <h4 style="margin:10px 0px">Kaique Silva</h4>
+                </li>
+                <li>
+                    <a href="#data" class="menuOpc">Sobre</a>
+                </li>
+                <li>
+                    <a href="#tecnologias" class="menuOpc">Tecnologias</a>
+                </li>
+                <li>
+                    <a href="#curriculo" class="menuOpc">Currículo</a>
+                </li>
+                <li>
+                    <a href="#contato" class="menuOpc">Contato</a>
+                </li>
+            </ul>
+        </div>
+        <a class="btn-hide-menu" id="btnOffMenu"></a>
+    </div>
+    <div class="bg">
+        <section class="headerInfo">
+            <h1>Kaique Silva</h1>
+            <h4>Fullstack Developer</h4>
+            <div class="row" style="margin-top:10px">
+                <a href="https://github.com/DevKaiqueSilva" target="_blank">
+                    <div class="social">
+                        <i data-feather="github" color="white"></i>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/kaiquessouza/" target="_blank">
+                    <div class="social">
+                        <i data-feather="linkedin" color="white"></i>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/k41que/" target="_blank">
+                    <div class="social">
+                        <i data-feather="instagram" color="white"></i>
+                    </div>
+                </a>
+
+            </div>
+            <a id="scrollDown" onclick="onScrollScreen()">
+                <div class="social blink">
+                    <i data-feather="chevron-down" color="white"></i>
+                </div>
+            </a>
+        </section>
+    </div>
+    <section class="darkBg" style="border-top: 5px solid white;" id="data">
+        <div class="content">
+            <div class="row center wrap" style="margin-bottom: 0px;">
+                <img src=" ./img/neonV.png" class="avatar" />
+                <div class="cardInfo">
+                    <h3 style="margin-top: 0px;">Kaique Souza Silva</h3>
+                    <p>
+                        Sempre teve grande afinidade com tecnologia e muito curioso desde jovem. Aos 16 anos decidiu
+                        cursar Técnico em Informática
+                        na Etec Fernando Prestes, formando-se em 2018 onde início sua carreira como desenvolvedor.
+                    </p>
+                    <p>
+                        Seus primeiros projetos foram como FreeLancer, desenvolvendo sistemas e websites.
+                        Após iniciar o curso de Análise e Desenvolvimento de Sistemas na Fatec Sorocaba em 2019, ele
+                        entrou para empresa
+                        Beetech, Sistemas de Gestão Empresarial, como desenvolvedor front-end. Hoje com 20 anos,
+                        continua nela
+                        como desenolvedor FullStack,
+                        trabalhando com as principais tecnologias do mercado, como: Vue, Nuxt, React Native, Node Js e
+                        Sql Server.
+                    </p>
+                    <p>
+                        Sendo um apaixonado por tecnologia e sempre buscando melhorar como profissional e
+                        desenvolvedor.
+                    </p>
+                    <!-- <p>
+                        <i class="material-icons left">settings_ethernet</i>Desenvolvedor FullStack
+                    </p>
+                    <p>
+                        <i class="material-icons left">book</i>Formado em Técnico em informática pela Etec Fernando
+                        Prestes e cursando Análise e Desenvolvimento de Sistemas pela Fatec Sorocaba.
+                    </p>
+                    <p>
+                        <i class="material-icons left">perm_identity</i>Apaixonado por tecnologia, em busca sempre de
+                        melhorar.
+                    </p>
+                    <p>
+                        <i class="material-icons left">email</i>kaiquesouzasilva11@gmail.com
+                    </p>
+                    <p>
+                        <i class="material-icons left ">phone</i>(15)99110-6262
+                    </p> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="margin-top: 5px;" class="dark" id="tecnologias">
+        <div class="center">
+            <h3>TECNOLOGIAS</h3>
+        </div>
+        <div class="row content" style="justify-content: center;flex-wrap: wrap;">
+            <div class="center" style="margin:10px">
+                <img src="./img/vue2.png" class="tec" />
+                <h5>VUE</h5>
+            </div>
+            <div class="center" style="margin:10px">
+                <img src="./img/react2.png" class="tec" />
+                <h5>REACT-NATIVE</h5>
+            </div>
+            <div class="center" style="margin:10px">
+                <img src="./img/node2.png" class="tec" />
+                <h5>NODE</h5>
+            </div>
+            <div class="center" style="margin:10px">
+                <img src="./img/sql2.png" class="tec" />
+                <h5>SQL SERVER</h5>
+            </div>
+            <div class="center" style="margin:10px">
+                <img src="./img/nuxt2.png" class="tec" />
+                <h5>NUXT</h5>
+            </div>
+            <div class="center" style="margin:10px">
+                <img src="./img/c2.png" class="tec" />
+                <h5>C#</h5>
+            </div>
+        </div>
+    </section>
+    <section style="margin-top: 5px;" class="dark" id="curriculo">
+        <div class="center">
+            <h3>Currículo</h3>
+            <a href="./img/CV - KAIQUE SOUZA SILVA .pdf" download>
+                <div class="social" style="width:200px !important;color:white;">
+                    <i data-feather="download" color="white" style="margin-right:5px"></i>BAIXAR CURRÍCULO
+                </div>
+            </a>
+        </div>
+
+    </section>
+    <section style="margin-top: 5px;margin-bottom:40px" class="dark" id="contato">
+        <div class="center">
+            <h3>CONTATO</h3>
+            <div class="contato">
+                <p>Se você quiser conversar ou saber mais alguma informação, entre em contato.</p>
+                <p style="margin-top: 40px;">
+                    <i class="material-icons left">email</i>kaiquesouzasilva11@gmail.com
+                </p>
+                <p>
+                    <a href="https://api.whatsapp.com/send/?phone=5515991106262&text=Olá Kaique" target="_blank"
+                        style="color:white"><i class="material-icons left ">phone</i>(15)99110-6262</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <script>
+        feather.replace()
+    </script>
+</body>
+
+</html>
