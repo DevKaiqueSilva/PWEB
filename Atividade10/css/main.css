@@ -1,0 +1,28 @@
+body{
+    background-image: url('../img/tijolo.jpg');
+    background-repeat: repeat;
+    width: 100vh;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+h1{
+    background-color: #212121;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 0px  !important;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border:4px solid rgba(255,255,255,0.5)
+}
+
+#image{
+    transition: ease-in-out;
+    margin-top: 0px  !important;
+}
