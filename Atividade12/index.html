@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 12</title>
+     <!-- Meu CSS -->
+     <link rel="stylesheet" href="./css/main.css" />
+     <!-- MEU SCRIPT JS -->
+     <script src="./js/main.js"></script>
+</head>
+<body>
+    <h1>Formulário Principal</h1>
+    <hr>
+    <form id="form" onsubmit="validar()" name="form">
+        <label>Nome:</label><br>
+        <input type="text" id="nome" class="texto" name="nome" placeholder="Digite aqui seu nome" />
+        <br>
+        <label>E-mail:</label> <br>
+        <input type="text" id="email" class="texto" name="email" placeholder="Digite aqui seu e-mail" />
+        <br>
+        <label>Comentário:</label> <br>
+        <textarea id="comentario" class="texto" name="comentario"  placeholder="Digite aqui seu comentário"
+          rows="5" ></textarea>
+        <div style="text-align:center">
+            <h2>PESQUISA</h2>
+            <em>Primeira vez nesta página?</em>
+            <div class="row" style="margin:30px 0px">
+                <div class="radio">
+                    <input type="radio" id="rbSim" name="pesquisa">
+                    <label for="other">Sim</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="rbNao" name="pesquisa">
+                    <label for="other">Não</label>
+                </div>
+            </div>
+            <input type="submit" class="button" value="ENVIAR" >
+            <input type="reset" class="button" value="LIMPAR" >
+        </div>
+        
+    </form>
+</body>
+</html>
